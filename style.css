@@ -1,0 +1,59 @@
+/* Here is a comment */
+
+/* Select an element by the element */
+h1 {
+    color: red;
+    border: 1px solid #000;
+}
+
+p{
+    color: blue;
+    text-align: center;
+}
+
+/* Select an element by class */
+
+.p1 {
+    color: green;
+    border-top: 2px solid pink;
+}
+
+.linkToGoogle {
+    background: brown;
+    color: pink;
+    text-decoration: none;
+    padding: 40px 60px;
+    display: inline-block;
+    margin-top: 290px;
+}
+
+.p1.firstPage{
+
+}
+
+p.firstPage{
+
+}
+
+p.p1{
+
+}
+
+.firstPage {
+
+}
+
+.firstName {
+    font-size: 50px;
+    color: red;
+}
+
+/* Select by event */
+.linkToGoogle:hover {
+    background: red;
+}
+
+/* Select by id */
+#firstPageHdr {
+    color: aqua;
+}
